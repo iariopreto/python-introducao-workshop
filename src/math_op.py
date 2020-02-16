@@ -1,3 +1,5 @@
+#!/bin/python3
+
 def multiplicacao(a: int, b: int) -> int:
     """Multiplicação de 2 numeros
     
@@ -10,4 +12,6 @@ def multiplicacao(a: int, b: int) -> int:
     """
     return a * b
 
-multiplicacao(1, 2)
+print(__name__)
+if __name__ == "__main__":
+    print(multiplicacao(1, 2))
