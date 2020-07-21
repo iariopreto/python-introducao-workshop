@@ -14,4 +14,6 @@ def multiplicacao(a: int, b: int) -> int:
 
 print(__name__)
 if __name__ == "__main__":
-    print(multiplicacao(1, 2))
+    import sys
+    a, b = int(sys.argv[1]), int(sys.argv[1])
+    print(multiplicacao(a, b))
